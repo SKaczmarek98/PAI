@@ -1,0 +1,45 @@
+
+  
+  .stars {
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+ 
+  .stars input{
+    position: absolute;
+    left: -99999px;
+  }
+  
+  label {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    color: transparent;
+  }
+  label::before {
+    content: '★';
+    color: #c0c0c0;
+    font-size: 30px;
+    line-height: 30px;
+    margin-right: -100%;
+  }
+  
+  label:hover::before,
+  label:hover ~ label::before,
+  .stars input:checked ~ label::before {
+    color: #ffa500;
+  }
+  input[type=submit]{
+    background-color: #6dc8ac;
+    border: none;
+    color: white;
+    padding: 10px 50px;
+  cursor: pointer;
+  border-radius:20px;
+  border:auto;
+  margin-top: 10px;
+  margin-left: 225px;
+  }

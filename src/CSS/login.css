@@ -1,0 +1,48 @@
+div.formularz {
+    margin:auto;
+    padding:20px;
+    margin-top:20px;
+    width:28%;
+    height:400px;
+    }
+    div.textarea{
+      margin-bottom: 25px;
+    width: 300px;
+    height: 70px;
+    border: 10px;
+    text-align: center;
+    width: 1300px;
+    }
+    div.input{
+      margin-top:10px;
+    }
+    div.button{
+      text-align: center;
+      width:110%;
+    }
+    form{
+      margin:auto;
+    }
+    input[type=submit]{
+        background-color: #6dc8ac;
+        border: none;
+        color: white;
+        padding: 10px 50px;
+      cursor: pointer;
+      border-radius:20px;
+      border:auto;
+      }
+    
+      input[type=text]{
+      margin:5px;
+      border-radius:7px;
+      border:solid 1px;
+    }
+    input[type=password]{
+      margin:5px;
+      border-radius:7px;
+      border:solid 1px;
+    }
+    label{
+      font-weight:normal;
+    }
